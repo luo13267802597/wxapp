@@ -1,0 +1,52 @@
+  /**index.wxss**/
+.lunbo{
+  height: 380rpx;
+}
+.lunbo navigator,
+.lunbo image{
+  width: 100%;
+  height: 100%;
+}
+.grids{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  font-size: 28rpx;
+  color: #888;
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.grids .item{
+  display: flex;
+  flex-direction: column;
+  width: 33.3333333%;
+  height: 250rpx;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+
+  box-sizing: border-box
+}
+.grids .item image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.grids .item text{
+ margin-top: 20px;
+ color: #888;
+ font-size: 28rpx;
+}
+.links{
+  border-top:5px solid #eee;
+  border-bottom:5px solid #eee;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.links image{
+  width: 310rpx;
+  height: 100px;
+  
+}
